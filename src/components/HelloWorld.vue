@@ -18,9 +18,9 @@
           <tbody>
             <tr v-for="(value, key) in cryptos">
               <td>{{ key }}</td>
-              <td>{{ value.BTC }}</td>
-              <td>{{ value.USD }}</td>
-              <td>{{ value.PHP }}</td>
+              <td>{{ value.BTC }} BTC</td>
+              <td>${{ value.USD }}</td>
+              <td>PHP {{ value.PHP }}</td>
             </tr>
           </tbody>
         </table>

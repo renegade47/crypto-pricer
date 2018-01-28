@@ -26,7 +26,11 @@
         </table>
       </div>
     </section>
+      <div class="footer">
+        <p class="credits">Credits to <a href="https://www.cryptocompare.com" target="_blank">cryptocompare</a> for the data</p>
+      </div>
   </div>
+
 </template>
 
 <script>
@@ -116,5 +120,13 @@ section{
 } 
 ::-webkit-scrollbar-thumb {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+
+.credits {
+  text-align: center;
+  color: #fff;
+}
+.credits a {
+  color: #fff;
 }
 </style>
